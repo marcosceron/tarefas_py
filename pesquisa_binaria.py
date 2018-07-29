@@ -4,7 +4,7 @@ def pesquisa_binaria(vetor, n):
     #print("Length: %d" % sup)
 
     while (inf <= sup):
-        meio = (inf + sup)/2
+        meio = (inf + sup)//2 # divisao inteira
         pesquisa = vetor[meio]
 
         if n == pesquisa:
